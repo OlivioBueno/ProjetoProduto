@@ -1,0 +1,33 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ProdutoTeste {
+// chamamos os getters e setters gerado na classe	
+	
+	@Test
+	void testGetterPeso() {
+		Produto pr = new Produto(17, 180);
+		double resEsperafo = 75;
+		double resReal = pr.getPeso();
+		
+		assertEquals(resEsperafo, resReal);
+		
+	}
+	
+	@Test
+	void testGetterAltura() {
+		
+	}
+	
+	@Test
+	void testSetterPeso() {
+		
+	}
+	
+	@Test
+	void testSetterAltura() {
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MinMaxTest {
+
+	@Test
+	void tesDigitacao() {
+		int nroDigitado = 0;
+		int nroReal = 1;
+		
+		MinMax comp = new MinMax();
+		nroDigitado = comp.capturaNro();
+		
+		assertEquals(nroDigitado, nroReal);
+	}
+	
+	@Test
+	public void testMin() {
+		
+	}
+
+}
