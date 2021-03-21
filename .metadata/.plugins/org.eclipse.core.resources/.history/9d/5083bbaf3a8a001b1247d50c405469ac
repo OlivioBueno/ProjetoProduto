@@ -1,0 +1,43 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ProdutoTeste {
+// chamamos os getters e setters gerado na classe	
+	
+	@Test
+	void testGetterPeso() {
+		Produto pr = new Produto(17, 180);
+		double resEsperafo = 75;
+		double resReal = pr.getPeso();
+		
+		assertEquals(resEsperafo, resReal);
+	}
+	
+	@Test
+	void testGetterAltura() {
+		Produto pr = new Produto(75, 150);
+		double resEsperado = 180;
+		double resReal = pr.getAltura();
+		
+		assertEquals(resEsperado, resReal);
+	}
+	
+	//validação dos SETTERs presupõem que já é valido
+	@Test
+	void testSetterPeso() {
+	Produto pr = new Produto();
+	
+	pr.setPeso(75);
+	double resultadoEsperado = 75;
+	double resultadoReal = pr.getPeso();
+	assertEquals(resultadoEsperado, resultadoReal);
+	}
+
+	
+	@Test
+	void testSetterAltura() {
+		
+	}
+
+}

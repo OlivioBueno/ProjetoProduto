@@ -1,0 +1,33 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ProdutoTeste {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+	
+	
+	@Test
+	void testGetterPeso() {
+		
+	}
+	
+	@Test
+	void testGetterAltura() {
+		
+	}
+	
+	@Test
+	void testSetterPeso() {
+		
+	}
+	
+	Test
+	void testSetterAltura() {
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MinMaxTest {
+
+	@Test
+	void testCapturaNro() {
+		fail("Not yet implemented");
+	}
+
+}
